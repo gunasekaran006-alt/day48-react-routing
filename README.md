@@ -1,16 +1,21 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚀 React Routing & Profile Dashboard
+A modern web application built with React, React Router DOM, and Tailwind CSS. This project demonstrates component-based architecture, dynamic routing, and API integration.
+🛠️ Tech Stack
+React 18 – Core UI library.
+React Router DOM – Client-side navigation.
+Tailwind CSS – Utility-first styling.
+Axios – Handling HTTP requests.
+DummyJSON API – Source for product data.
+✨ Key Features
+📍 Advanced Routing
+Dynamic Navigation: Seamless switching between Home, Products, and Profile.
+404 Error Page: Custom "Not Found" page with a visual GIF fallback.
+Catch-all Routes: Handles undefined paths gracefully.
+🧩 Component Architecture
+Reusable UI: Modular components for Buttons, Avatars, and Info labels.
+Prop-Driven Design: Profile data passed dynamically via props.
+Conditional Rendering: Shows/hides elements (like the Bio or Online status) based on data availability.
+📦 Product Module
+Real-time Fetching: Uses useEffect and Axios to pull live data.
+Responsive Grid: Fully optimized for mobile, tablet, and desktop views.
+UI Elements: Displays price, category, and ratings using Tailwind's layout system.
